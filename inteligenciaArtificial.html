@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoyo a Estudiantes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F5F5F5;
+            color: #333;
+        }
+
+        /* Estilos del navegador */
+        nav {
+            background-color:  #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Slider */
+        .slider {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+
+        .slider img.active {
+            display: block;
+        }
+
+        /* Sección de recursos */
+        .recursos {
+            background-color: #F5F5DC;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .recursos h2 {
+            color: #003366;
+        }
+
+        .recursos .icono {
+            font-size: 50px;
+            margin: 10px;
+            color: #003366;
+        }
+
+        .recursos p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px auto;
+            max-width: 800px;
+        }
+
+        /* Diseño flexible */
+        @media (max-width: 768px) {
+            nav a {
+                margin: 0 10px;
+                font-size: 14px;
+            }
+
+            .recursos p {
+                font-size: 16px;
+            }
+        }
+
+        /* Estilo para los derechos reservados */
+        .footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /*Estilo de los enunciados*/
+        .recursos p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegador -->
+    <nav>
+        <h1><div>Apoyo a Estudiantes</div></h1>
+        <div>
+            <a href="index.html">Inicio</a>
+            <a href="recursosmatematicos.html">Recursos Matemáticos</a>
+            <a href="recursosespanol.html">Recursos Español</a>
+            <a href="recursosingles.html">Recursos Inglés</a>
+            <a href="guia.html">Guías</a>
+            <a href="inteligenciaArtificial.html">Inteligencia Artificial</a>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="slider">
+        <img src="img/img1_1080_280.jpeg" alt="Ayuda académica" class="active">
+        <img src="img/img2_1080_280.jpeg" alt="Preparación para exámenes">
+        <img src="img/img3_1080_280.jpeg" alt="Recursos educativos">
+    </div>
+
+    <!-- Sección explicativa -->
+    <section class="recursos">
+        <h2>Inteligencia Artificial</h2>
+        <p>La inteligencia artificial (IA) está revolucionando la educación al ofrecer herramientas que personalizan y optimizan el proceso de aprendizaje. Para los estudiantes, la IA facilita la adaptación de los contenidos educativos a sus necesidades individuales, permitiendo un aprendizaje más eficaz y centrado en sus áreas de interés. Además, la IA ayuda en la gestión académica, automatizando tareas administrativas y liberando tiempo para actividades más enriquecedoras. 
+            VIEW.GENIALLY.COM
+            En el ámbito universitario, la IA mejora la investigación al analizar grandes volúmenes de datos y proporcionar insights valiosos. También promueve la colaboración entre estudiantes y docentes, creando experiencias educativas más dinámicas e interactivas. Al integrarse en plataformas de aprendizaje, la IA ofrece retroalimentación en tiempo real, lo que permite a los estudiantes identificar y corregir errores rápidamente, mejorando su rendimiento académico.
+            <div style="text-align: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ToCr0YdqV1I" 
+                    title="La Inteligencia Artificial en la educación" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </p>
+            
+    <div class="icono">🤖</div>
+    <p>
+        <strong>ChatGPT:</strong> Un modelo avanzado de lenguaje desarrollado por OpenAI que permite generar texto coherente, responder preguntas y asistir en diversas tareas de escritura y programación.  Ideal para practicar español y matemáticas, ChatGPT puede generar ejercicios personalizados, corregir redacciones y explicar conceptos de forma clara. Su capacidad para adaptarse al nivel del usuario lo hace útil tanto para mejorar la escritura como para resolver problemas matemáticos paso a paso.
+
+        <a href="https://chatgpt.com/">ChatGPT</a>
+    </p>
+    
+    <div class="icono">🔮</div>
+    <p>
+        <strong>Gemini:</strong> Un potente sistema de inteligencia artificial de Google DeepMind, diseñado para comprender y procesar información de manera multimodal, integrando texto, imágenes y más. Con un enfoque en el análisis y la comprensión del lenguaje, Gemini es excelente para perfeccionar la gramática y la lectura en español. Además, puede ayudar en matemáticas al proporcionar soluciones detalladas y explicar patrones en problemas complejos.
+
+        <a href="https://gemini.google.com/app">Gemini</a>
+    </p>
+    
+    <div class="icono">📊</div>
+    <p>
+        <strong>MathGPT:</strong> Una herramienta especializada en resolver problemas matemáticos avanzados, proporcionando soluciones detalladas y explicaciones paso a paso. Diseñado específicamente para matemáticas, Mathful ofrece soluciones detalladas y explicaciones interactivas en álgebra, cálculo y más. Es una excelente opción para practicar problemas complejos con una retroalimentación clara y precisa.
+
+        <a href="https://mathful.com/es/mathgpt">MathGPT</a>
+    </p>
+    
+    <div class="icono">🧠</div>
+    <p>
+        <strong>DeepSeek:</strong> Un modelo de IA enfocado en la búsqueda y análisis de información en grandes volúmenes de datos, ideal para investigaciones y descubrimientos científicos. Especializado en la generación de contenido preciso, DeepSeek es útil para resolver ecuaciones avanzadas y generar textos bien estructurados en español. Su capacidad de razonamiento lógico lo hace una herramienta poderosa para estudiantes que buscan mejorar en ambas áreas.
+        <a href="https://www.deepseek.com/">DeepSeek</a>
+    </p>
+    </section>
+
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.slider img');
+
+        function showNextImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(showNextImage, 3000); // Cambia cada 3 segundos
+    </script>
+
+<div class="footer">
+    <p>Derechos Reservados &copy; Proyecto Gracia Mayela Acosta 2025</p>
+</div>
+
+</body>
+</html>
